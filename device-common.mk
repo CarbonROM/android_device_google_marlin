@@ -628,3 +628,6 @@ PRODUCT_PACKAGES += libion
 # Enable tethering
 PRODUCT_PROPERTY_OVERRIDES += \
     net.tethering.noprovisioning=true
+
+# Update engine
+PRODUCT_PACKAGES += brillo_update_payload
