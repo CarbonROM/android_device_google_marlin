@@ -1,0 +1,8 @@
+[
+  {
+    "remote": "aosp",
+    "repository": "kernel/msm",
+    "target_path": "kernel/google/marlin",
+    "revision": "android-msm-marlin-3.18-nougat-mr1"
+  }
+]

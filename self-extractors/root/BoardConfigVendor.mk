@@ -18,5 +18,5 @@ else
 LOCAL_STEM := marlin/BoardConfigPartial.mk
 endif
 
--include vendor/google_devices/$(LOCAL_STEM)
+-include vendor/google/$(LOCAL_STEM)
 -include vendor/qcom/$(LOCAL_STEM)
