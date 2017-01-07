@@ -485,6 +485,3 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.facelock.det_timeout=2500 \
     ro.facelock.rec_timeout=3500 \
     ro.facelock.est_max_time=600
-
-# Use prebuilt IMS from vendor repo
-PREBUILT_EXT_IMS := true
