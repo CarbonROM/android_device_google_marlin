@@ -5,22 +5,19 @@ PRODUCT_PACKAGES += libion
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.hardware.fingerprint=fpc
 
-# Gello
-PRODUCT_PACKAGES += Gello
-
 # IMS
 PRODUCT_PACKAGES += \
     com.android.ims.rcsmanager
 
 # Overlays
-DEVICE_PACKAGE_OVERLAYS += device/google/marlin/overlay-lineage
-
-# Snap
-PRODUCT_PACKAGES += Snap
+DEVICE_PACKAGE_OVERLAYS += device/google/marlin/overlay-carbon
 
 # Tethering
 PRODUCT_PROPERTY_OVERRIDES += \
     net.tethering.noprovisioning=true
+
+# Snap
+PRODUCT_PACKAGES += Snap
 
 # Update engine
 PRODUCT_PACKAGES += brillo_update_payload
