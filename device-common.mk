@@ -40,7 +40,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
     dalvik.vm.heapgrowthlimit=256m \
     ro.telephony.default_cdma_sub=0
 
-$(call inherit-product, frameworks/native/build/phone-xhdpi-2048-dalvik-heap.mk)
+$(call inherit-product, frameworks/native/build/phone-xxhdpi-3072-dalvik-heap.mk)
+$(call inherit-product, frameworks/native/build/phone-xxhdpi-3072-hwui-memory.mk)
 $(call inherit-product, device/google/marlin/common/common64.mk)
 
 #Android EGL implementation
@@ -70,7 +71,7 @@ PRODUCT_PACKAGES += fs_config_files \
 USE_XML_AUDIO_POLICY_CONF := 1
 PRODUCT_COPY_FILES += \
     device/google/marlin/audio_output_policy.conf:$(TARGET_COPY_OUT_VENDOR)/etc/audio_output_policy.conf \
-    device/google/marlin/audio_effects.conf:system/etc/audio_effects_vendor.conf \
+    device/google/marlin/audio_effects.conf:system/etc/audio_effects.conf \
     device/google/marlin/mixer_paths.xml:system/etc/mixer_paths.xml \
     device/google/marlin/mixer_paths_tasha_t50.xml:system/etc/mixer_paths_tasha_t50.xml \
     device/google/marlin/aanc_tuning_mixer.txt:system/etc/aanc_tuning_mixer.txt \

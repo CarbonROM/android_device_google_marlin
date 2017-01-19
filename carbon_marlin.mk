@@ -2,19 +2,22 @@
 TARGET_SCREEN_HEIGHT := 2560
 TARGET_SCREEN_WIDTH := 1440
 
-# Inherit some common Lineage stuff.
-$(call inherit-product, vendor/cm/config/common_full_phone.mk)
+# Inherit Carbon GSM telephony parts
+$(call inherit-product, vendor/carbon/config/gsm.mk)
+
+# Inherit Carbon product configuration
+$(call inherit-product, vendor/carbon/config/common.mk)
 
 # Inherit device configuration
 $(call inherit-product, device/google/marlin/aosp_marlin.mk)
 
--include device/google/marlin/marlin/device-lineage.mk
+-include device/google/marlin/marlin/device-carbon.mk
 
 ## Device identifier. This must come after all inclusions
-PRODUCT_NAME := lineage_marlin
+PRODUCT_NAME := carbon_marlin
 PRODUCT_BRAND := google
 PRODUCT_MODEL := Pixel XL
-TARGET_MANUFACTURER := HTC
+TARGET_MANUFACTURER := Google
 PRODUCT_RESTRICT_VENDOR_FILES := false
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
