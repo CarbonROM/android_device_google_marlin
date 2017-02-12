@@ -25,4 +25,7 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     BUILD_FINGERPRINT=google/marlin/marlin:7.1.1/NOF26W/3637559:user/release-keys \
     PRIVATE_BUILD_DESC="marlin-user 7.1.1 NOF26W 3637559 release-keys"
 
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.carbon.maintainer="Myself5"
+
 $(call inherit-product-if-exists, vendor/google/marlin/marlin-vendor.mk)
