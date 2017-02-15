@@ -12,5 +12,8 @@ DEVICE_PACKAGE_OVERLAYS += device/google/marlin/overlay-carbon
 PRODUCT_PROPERTY_OVERRIDES += \
     net.tethering.noprovisioning=true
 
+# Snap
+PRODUCT_PACKAGES += SnapdragonCamera
+
 # Update engine
 PRODUCT_PACKAGES += brillo_update_payload
