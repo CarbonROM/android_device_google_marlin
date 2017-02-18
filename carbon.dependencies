@@ -4,7 +4,9 @@
     "target_path": "kernel/google/marlin"
   },
   {
-    "repository": "CarbonROM/android_device_qcom_common",
-    "target_path": "device/qcom/common"
+    "remote": "gh",
+    "repository": "LineageOS/android_device_qcom_common",
+    "target_path": "device/qcom/common",
+    "revision": "cm-14.1"
   }
 ]
