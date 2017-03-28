@@ -1,5 +1,8 @@
 # Common board config for marlin, sailfish
 
+# Audio
+BOARD_SUPPORTS_SOUND_TRIGGER := true
+
 # Disable dex pre-opt
 WITH_DEXPREOPT := false
 
