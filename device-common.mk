@@ -361,6 +361,7 @@ AB_OTA_PARTITIONS += \
 # NFC packages
 PRODUCT_PACKAGES += \
     NfcNci \
+    nfc_nci.pn54x.default \
     Tag
 
 # NFC/camera interaction workaround - DO NOT COPY TO NEW DEVICES
