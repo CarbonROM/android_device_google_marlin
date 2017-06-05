@@ -14,3 +14,5 @@ allow init_foreground domain:dir { getattr search };
 allow init_foreground domain:file { read open };
 
 allow init_foreground kernel:process setsched;
+
+allow init_foreground logd:dir getattr;
