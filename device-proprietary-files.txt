@@ -142,3 +142,13 @@ etc/permissions/vzw_sso_permissions.xml
 bin/cnss-daemon
 bin/cnss_diag
 bin/wcnss_filter
+
+# BoostFramework
+bin/iop|99103e715b712b7d1a1973bff3b6b189fb34473d
+etc/permissions/com.qualcomm.qti.Performance.xml|7976f2fd46b8d07814310cc957a70f829bdd6932
+-framework/QPerformance.jar|9837b20ce718876c6e91b6bbbb794ead9cc94b6c
+lib/libqti-iop-client.so|136cbb94e22333f92d83451fc4d7e4d91e395a6e
+lib/libqti_performance.so|65ad1b216212d9f7b1ba01b1992cf1b7b86da691
+lib64/libqti-iop-client.so|417372ebca88115eb57b6d98d1e4bc7d2337b860
+lib64/libqti-iop.so|b1b563b5396ffebbcf092bba50bc381c4669b4ae
+lib64/libqti_performance.so|81b16e982b87d840c2a1e469ef631d686a6ca17f
