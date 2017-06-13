@@ -23,8 +23,5 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Snap
 PRODUCT_PACKAGES += Snap
 
-# Preloading QPerformance jar to ensure faster perflocks in Boost Framework
-PRODUCT_BOOT_JARS += QPerformance
-
 # Update engine
 PRODUCT_PACKAGES += brillo_update_payload
