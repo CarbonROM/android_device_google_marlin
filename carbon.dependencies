@@ -1,9 +1,9 @@
 [
   {
-    "remote": "lineage",
-    "repository": "LineageOS/android_kernel_google_marlin",
+    "remote": "carbon",
+    "repository": "CarbonROM/android_kernel_google_marlin",
     "target_path": "kernel/google/marlin",
-    "revision": "cm-14.1"
+    "revision": "cr-5.1"
   },
   {
     "remote": "lineage",
