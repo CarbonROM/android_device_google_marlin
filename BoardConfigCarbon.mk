@@ -26,3 +26,4 @@ TARGET_USE_SDCLANG := true
 BOARD_USES_QC_TIME_SERVICES := true
 
 -include vendor/google/marlin/BoardConfigVendor.mk
+-include vendor/qcom/perf/BoardConfigVendor.mk
