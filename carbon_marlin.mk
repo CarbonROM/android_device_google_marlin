@@ -29,4 +29,4 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.carbon.maintainer="Myself5"
 
-$(call inherit-product-if-exists, vendor/google/marlin/marlin-vendor.mk)
+$(call inherit-product-if-exists, vendor/google/marlin/device-vendor-marlin.mk)
