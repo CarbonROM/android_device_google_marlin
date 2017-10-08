@@ -34,3 +34,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Update engine
 PRODUCT_PACKAGES += brillo_update_payload
+
+PRODUCT_PACKAGES += \
+    libminui \
+    PresencePolling \
+    qcrilmsgtunnel \
+    libtinyxml \
+    libLLVM
