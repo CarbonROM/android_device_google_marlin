@@ -33,3 +33,12 @@ etc/permissions/vzw_sso_permissions.xml
 -priv-app/VZWAVS/VZWAVS.apk:priv-app/VZWAVS/VZWAVS.apk:PRESIGNED
 -priv-app/VzwLcSilent/VzwLcSilent.apk:priv-app/VzwLcSilent/VzwLcSilent.apk:PRESIGNED
 -priv-app/VzwOmaTrigger/VzwOmaTrigger.apk:priv-app/VzwOmaTrigger/VzwOmaTrigger.apk:PRESIGNED
+
+# Self Extractor System list
+etc/permissions/com.android.vzwomatrigger.xml
+etc/permissions/privapp-permissions-marlin.xml
+lib/libaptXHD_encoder.so
+lib/libaptX_encoder.so
+lib64/libaptXHD_encoder.so
+lib64/libaptX_encoder.so
+lib64/vendor.qti.qcril.am@1.0.so
