@@ -114,7 +114,7 @@ BOARD_EGL_CFG := device/google/marlin/egl.cfg
 # Build Kernel inline
 BOARD_KERNEL_IMAGE_NAME := Image.gz-dtb
 TARGET_COMPILE_WITH_MSM_KERNEL := true
-TARGET_KERNEL_CONFIG := marlin_defconfig
+TARGET_KERNEL_CONFIG := lineageos_marlin_defconfig
 TARGET_KERNEL_SOURCE := kernel/google/marlin
 
 BOARD_KERNEL_BASE        := 0x80000000
