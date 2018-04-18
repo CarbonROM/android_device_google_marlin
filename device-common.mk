@@ -16,18 +16,9 @@
 
 # This file includes all definitions that apply to ALL marlin and sailfish devices
 #
-# Everything in this directory will become public
-
-ifeq ($(TARGET_PREBUILT_KERNEL),)
-    LOCAL_KERNEL := device/google/marlin-kernel/Image.lz4-dtb
-else
-LOCAL_KERNEL := $(TARGET_PREBUILT_KERNEL)
-endif
+# Everything in this directory will become public.
 
 PRODUCT_SHIPPING_API_LEVEL := 25
-
-PRODUCT_COPY_FILES += \
-    $(LOCAL_KERNEL):kernel
 
 DEVICE_PACKAGE_OVERLAYS += device/google/marlin/overlay
 
