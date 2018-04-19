@@ -41,4 +41,6 @@
     <string name="quick_settings_tiles_default" translatable="false">
         wifi,bt,dnd,flashlight,rotation,battery,cell,airplane,night
     </string>
+    <!-- Should "LTE"/"4G" be shown instead of "LTE+"/"4G+" when on NETWORK_TYPE_LTE_CA? -->
+    <bool name="config_hideLtePlus">true</bool>
 </resources>
