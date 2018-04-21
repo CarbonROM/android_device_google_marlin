@@ -22,6 +22,9 @@ PRODUCT_SHIPPING_API_LEVEL := 25
 
 DEVICE_PACKAGE_OVERLAYS += device/google/marlin/overlay
 
+PRODUCT_ENFORCE_RRO_TARGETS := \
+    framework-res
+
 # Input device files
 PRODUCT_COPY_FILES += \
     device/google/marlin/gpio-keys.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/gpio-keys.kl \
@@ -302,8 +305,12 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Write Manufacturer & Model information in created media files.
 # IMPORTANT: ONLY SET THIS PROPERTY TO TRUE FOR PUBLIC DEVICES
+ifneq ($(filter aosp_sailfish% sailfish% aosp_marlin% marlin%, $(TARGET_PRODUCT)),)
 PRODUCT_PROPERTY_OVERRIDES += \
     media.recorder.show_manufacturer_and_model=true
+else
+$(error "you must decide whether to write manufacturer and model information into created media files for this device. ONLY ENABLE IT FOR PUBLIC DEVICE.")
+endif  #TARGET_PRODUCT
 
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.camera.gyro.android=4 \
