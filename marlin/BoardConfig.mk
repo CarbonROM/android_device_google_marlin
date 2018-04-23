@@ -111,6 +111,12 @@ BOARD_PLAT_PRIVATE_SEPOLICY_DIR := device/google/marlin/sepolicy/private
 
 BOARD_EGL_CFG := device/google/marlin/egl.cfg
 
+# Build Kernel inline
+BOARD_KERNEL_IMAGE_NAME := Image.gz-dtb
+TARGET_COMPILE_WITH_MSM_KERNEL := true
+TARGET_KERNEL_CONFIG := lineageos_marlin_defconfig
+TARGET_KERNEL_SOURCE := kernel/google/marlin
+
 BOARD_KERNEL_BASE        := 0x80000000
 BOARD_KERNEL_PAGESIZE    := 4096
 ifneq ($(filter marlin_kasan, $(TARGET_PRODUCT)),)
@@ -126,7 +132,6 @@ endif
 TARGET_KERNEL_ARCH := arm64
 TARGET_KERNEL_HEADER_ARCH := arm64
 TARGET_KERNEL_CROSS_COMPILE_PREFIX := aarch64-linux-android-
-TARGET_USES_UNCOMPRESSED_KERNEL := false
 
 MAX_EGL_CACHE_KEY_SIZE := 12*1024
 MAX_EGL_CACHE_SIZE := 2048*1024
@@ -176,7 +181,6 @@ CAMERA_DAEMON_NOT_PRESENT := true
 
 # TARGET_COMPILE_WITH_MSM_KERNEL := true
 
-TARGET_KERNEL_APPEND_DTB := true
 # Added to indicate that protobuf-c is supported in this build
 PROTOBUF_SUPPORTED := false
 
