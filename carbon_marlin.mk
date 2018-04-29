@@ -22,3 +22,6 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 BUILD_FINGERPRINT := google/marlin/marlin:8.1.0/OPM2.171019.029/4657601:user/release-keys
 
 $(call inherit-product-if-exists, vendor/google/marlin/marlin-vendor.mk)
+
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.carbon.maintainer="joe_pacino"
