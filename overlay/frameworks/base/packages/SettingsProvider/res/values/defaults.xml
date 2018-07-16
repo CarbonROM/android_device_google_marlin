@@ -28,10 +28,4 @@
 
     <!-- Set the notificaiton pulse to be off by default. -->
     <bool name="def_notification_pulse">false</bool>
-    
-    <!-- Set the notificaiton pulse to be on by default. -->
-    <bool name="def_notification_pulse">true</bool>
-
-    <!-- Disable bluetooth by default -->
-    <bool name="def_bluetooth_on">false</bool>
 </resources>
