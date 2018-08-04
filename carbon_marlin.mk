@@ -2,7 +2,7 @@
 TARGET_SCREEN_HEIGHT := 2560
 TARGET_SCREEN_WIDTH := 1440
 
-# Inherit some common carbon stuff.
+# Inherit Carbon product configuration
 $(call inherit-product, vendor/carbon/config/common.mk)
 
 # Inherit device configuration
@@ -17,11 +17,10 @@ PRODUCT_RESTRICT_VENDOR_FILES := false
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=marlin \
+    BUILD_FINGERPRINT="google/marlin/marlin:8.1.0/OPM4.171019.021.P1/4820305:user/release-keys" \
     PRIVATE_BUILD_DESC="marlin-user 8.1.0 OPM4.171019.021.P1 4820305 release-keys"
-
-BUILD_FINGERPRINT := google/marlin/marlin:8.1.0/OPM4.171019.021.P1/4820305:user/release-keys
-
-$(call inherit-product-if-exists, vendor/google/marlin/marlin-vendor.mk)
 
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.carbon.maintainer="joe_pacino"
+
+$(call inherit-product-if-exists, vendor/google/marlin/marlin-vendor.mk)
