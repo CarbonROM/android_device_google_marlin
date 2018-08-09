@@ -10,3 +10,6 @@ TARGET_KERNEL_CLANG_VERSION := 6.0.2
 
 # Time services
 BOARD_USES_QC_TIME_SERVICES := true
+
+# Use prebuilt vendor image
+BOARD_PREBUILT_VENDORIMAGE := true
