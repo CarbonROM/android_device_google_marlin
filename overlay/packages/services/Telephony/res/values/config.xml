@@ -34,4 +34,6 @@
          This is used to support carriers which generate a recording tone to the remote party
          when a call recording app is in use. -->
     <bool name="config_support_telephony_audio_device">true</bool>
+    <!-- Which CarrierConfig package to use -->
+    <string name="platform_carrier_config_package">com.google.android.carrier</string>
 </resources>
