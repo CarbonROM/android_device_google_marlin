@@ -1,0 +1,4 @@
+{
+  "pushCert": "certificate version 0.1\npusher shagbag913 \u003csh4gbag913@gmail.com\u003e 1540261010 -0400\npushee ssh://review.carbonrom.org:29418/CarbonROM/android_device_google_marlin\nnonce 1540260997-2BD0FE1FF592528ECFBB7BD85B9EF7A2B159921F\n\n0000000000000000000000000000000000000000 a42433d0a7792af76254afd793d4a8bc5b3b8cb3 refs/for/cr-7.0\n-----BEGIN PGP SIGNATURE-----\n\niQFJBAABCAAzFiEEMPGMarC/xEyL/se0RLbG76r6aA0FAlvOhJIVHHNoNGdiYWc5\nMTNAZ21haWwuY29tAAoJEES2xu+q+mgNYD0H/2Lixyf0ytxG+MGm+9GUJhUrCleW\nH2SS6HtKcIYFW86amrOlBi3Kuoivvy48PjXFG4KwvOqEmF4xTEymzXpi4RVHrqPC\nC1Sipyg1SapcUulqIKyBHn74xmcAFaNpRBshmJwHHcDfQTs9gpt3KFhTPphjKv+h\n7USFowCT06ME3ttgp5b+R+4Vqca6RAXGEzTqRhobxNpELCE2fqmkLzrTDR4ypU9x\nhSu480n+LUSQzAEdf4Xxd65dSv2eZqM52EVetJUxe4R0kaN5x0hiCVdNEcG/omxL\n/QHdzlCFtbec84hqGrXQUPgP5JdglF/hZ/GiVIvj6ocfwPNXH8QRXMkKRgI\u003d\n\u003dRrt4\n-----END PGP SIGNATURE-----\n",
+  "comments": []
+}
