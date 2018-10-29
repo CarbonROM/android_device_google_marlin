@@ -53,7 +53,6 @@ lib/libdmengine.so
 lib/libdmjavaplugin.so
 -app/Tycho/Tycho.apk;PRESIGNED
 -priv-app/CarrierServices/CarrierServices.apk;PRESIGNED
--priv-app/CarrierSettings/CarrierSettings.apk;PRESIGNED
 -priv-app/CarrierSetup/CarrierSetup.apk;PRESIGNED
 -priv-app/ConnMO/ConnMO.apk
 -priv-app/DCMO/DCMO.apk
