@@ -43,8 +43,8 @@
     <!-- Pre-installed carrier apps which should be disabled until a matching SIM is inserted. -->
     <disabled-until-used-preinstalled-carrier-app package="com.google.android.apps.tycho" />
 
-    <!-- Verizon MVS app: pre-installed and should be disabled until Verizon SIM inserted. -->
-    <disabled-until-used-preinstalled-carrier-app package="com.verizon.mips.services" />
+    <!-- Verizon MVS app: pre-installed and should be disabled until Verizon SIM inserted.
+    <disabled-until-used-preinstalled-carrier-app package="com.verizon.mips.services" /> -->
 
     <!-- Whitelist so the app can run JobIntentService in background. b/77932342 -->
     <allow-in-power-save-except-idle package="com.google.android.tetheringentitlement" />
