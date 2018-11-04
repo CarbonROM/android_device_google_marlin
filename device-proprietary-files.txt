@@ -66,7 +66,6 @@ lib/libdmjavaplugin.so
 -priv-app/SprintHM/SprintHM.apk
 
 # Sysconfig
-etc/sysconfig/nexus.xml
 etc/sysconfig/pixel_2016_exclusive.xml
 
 # VZW
