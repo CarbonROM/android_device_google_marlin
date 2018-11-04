@@ -65,10 +65,6 @@ lib/libdmjavaplugin.so
 -priv-app/SprintDM/SprintDM.apk
 -priv-app/SprintHM/SprintHM.apk
 
-# Sysconfig
-etc/sysconfig/nexus.xml
-etc/sysconfig/pixel_2016_exclusive.xml
-
 # VZW
 -app/VZWAPNLib/VZWAPNLib.apk;PRESIGNED
 etc/permissions/com.android.vzwomatrigger.xml
