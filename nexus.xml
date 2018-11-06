@@ -55,4 +55,8 @@
     <!-- Allow eMBMS middleware services to run in the background -->
     <allow-in-power-save package="com.qualcomm.ltebc_vzw" />
     <allow-in-power-save package="com.qualcomm.ltebc" />
+
+    <!-- Pixel 2016 specific configurations -->
+    <feature name="com.google.android.apps.photos.NEXUS_PRELOAD" />
+    <feature name="com.google.android.apps.photos.nexus_preload" />
 </config>
